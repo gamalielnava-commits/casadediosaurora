@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<meta name="description" content="Iglesia Casa de Dios — Aurora, Colorado. Comunidad cristiana evangélica. Asambleas de Dios.">
+<meta name="theme-color" content="#0a0a0a">
+<title>Iglesia Casa de Dios — Aurora, CO</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Iglesia Casa de Dios — Aurora, Colorado">
+<meta property="og:description" content="Iglesia cristiana evangélica de las Asambleas de Dios para toda la familia. Domingos 10:00 a.m., Aurora, CO.">
+<meta property="og:locale" content="es_US">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Church","name":"Iglesia Casa de Dios","denomination":"Assemblies of God",
+ "description":"Iglesia cristiana evangélica de las Asambleas de Dios en Aurora, Colorado, al servicio de familias hispanas.",
+ "telephone":"+1-720-877-3095","email":"iglesiacasadedios33@gmail.com",
+ "address":{"@type":"PostalAddress","streetAddress":"11111 E Mississippi Ave, Suite 279","addressLocality":"Aurora","addressRegion":"CO","postalCode":"80012","addressCountry":"US"},
+ "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"10:00","closes":"12:00"},
+   {"@type":"OpeningHoursSpecification","dayOfWeek":"Wednesday","opens":"19:30","closes":"21:00"},
+   {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"19:30","closes":"21:00"}],
+ "sameAs":["https://www.facebook.com/share/19XMBFVj5S/","https://instagram.com/iglesiacasadediosag/","https://youtube.com/@somoscasadediosad"]}
+</script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Geist:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cg fill=%22none%22 stroke=%22%23e10600%22 stroke-width=%223%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M8 58V30a24 24 0 0 1 48 0v28%22/%3E%3Cpath d=%22M17 58V31a15 15 0 0 1 30 0v27%22/%3E%3C/g%3E%3Cpath fill=%22%23e10600%22 d=%22M32 20c4 5 7 8 7 13a7 7 0 0 1-14 0c0-3 2-5 3-7 1 2 2 3 3 3 0-3 0-5 1-9z%22/%3E%3C/svg%3E">
+
+<style>
+:root {
+  --brand:#e10600; --brand-deep:#a30500; --brand-light:#ff4a40; --brand-tint:#1a0a0a; --brand-tint-2:#241010;
+  --bg:#0a0a0a; --bg-warm:#111111; --surface:#151515;
+  --line:rgba(255,255,255,0.10); --line-strong:rgba(255,255,255,0.20);
+  --ink:#ffffff; --ink-soft:#cfcfcf; --ink-mute:#8f8f8f; --ink-faint:#5a5a5a;
+  --display:'Geist',system-ui,sans-serif; --serif:'Fraunces',Georgia,serif; --maxw:1280px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--display);
+  font-weight: 400;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.55;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "ss02";
+}
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+img { max-width: 100%; display: block; }
+::selection { background: var(--brand); color: #fff; }
+
+/* Lang */
+html:not([lang="en"]) [data-lang-en] { display: none !important; }
+html[lang="en"] [data-lang-es] { display: none !important; }
+
+/* === Navigation === */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 1.05rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  background: rgba(8,8,8,0.72);
+  border-bottom: 1px solid var(--line);
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.nav-brand img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.nav-brand-text {
+  line-height: 1;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+.nav-brand-text span {
+  display: block;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-mute);
+  margin-top: 4px;
+}
+.nav-links {
+  display: none;
+  gap: 1.8rem;
+  align-items: center;
+}
+.nav-links a {
+  font-size: 0.83rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  transition: color 0.2s;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--brand);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+.nav-links a:hover { color: var(--brand); }
+.nav-links a:hover::after { width: 100%; }
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.lang-switch {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+.lang-switch button {
+  padding: 5px 11px;
+  border-radius: 999px;
+  color: var(--ink-mute);
+  transition: all 0.25s;
+}
+.lang-switch button.active {
+  background: var(--ink);
+  color: var(--bg);
+}
+.menu-toggle {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+}
+.menu-toggle span {
+  display: block;
+  width: 14px;
+  height: 1.5px;
+  background: var(--ink);
+  transition: 0.3s;
+}
+.menu-toggle.open span:nth-child(1) { transform: translateY(3.25px) rotate(45deg); }
+.menu-toggle.open span:nth-child(2) { transform: translateY(-3.25px) rotate(-45deg); }
+@media (min-width: 920px) {
+  .nav-links { display: flex; }
+  .menu-toggle { display: none; }
+}
+
+.mobile-menu {
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.98);
+  backdrop-filter: blur(24px);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+}
+.mobile-menu.open { opacity: 1; pointer-events: auto; }
+.mobile-menu a {
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.mobile-menu a:hover { color: var(--brand); }
+
+/* === Hero === */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 7rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  isolation: isolate;
+}
+/* Fondo cálido con esferas suaves — inspirado en bodegón 3D beige */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 85% 20%, rgba(225,6,0,0.38) 0%, rgba(225,6,0,0) 60%),
+    radial-gradient(ellipse 50% 40% at 10% 95%, rgba(225,6,0,0.18) 0%, rgba(225,6,0,0) 65%),
+    linear-gradient(180deg, #050505 0%, #0b0b0b 55%, #140505 100%);
+  z-index: -2;
+}
+/* Grano suave sobre el gradiente */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.22;
+  z-index: -1;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+.hero-watermark {
+  position: absolute;
+  right: -8%;
+  top: 6%;
+  width: 55vw;
+  max-width: 560px;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: -1;
+}
+/* Tarjeta de vidrio esmerilado */
+.hero-content {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  background: rgba(12,12,12,0.55);
+  backdrop-filter: blur(32px) saturate(130%);
+  -webkit-backdrop-filter: blur(32px) saturate(130%);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 32px;
+  padding: clamp(1.8rem, 5vw, 3.5rem);
+  box-shadow: 0 40px 90px -35px rgba(225,6,0,0.4);
+}
+.hero-eyebrow {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  color: var(--brand);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  opacity: 0;
+  animation: fadeUp 1s 0.2s forwards ease-out;
+}
+.hero-eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--brand);
+}
+.hero-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.8rem, 9vw, 6.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeUp 1.1s 0.35s forwards ease-out;
+}
+.hero-title em {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--brand);
+}
+.hero-tagline {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  line-height: 1.55;
+  color: var(--ink-soft);
+  max-width: 560px;
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  animation: fadeUp 1.1s 0.55s forwards ease-out;
+}
+.hero-tagline strong { color: var(--brand); font-weight: 500; }
+.hero-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  opacity: 0;
+  animation: fadeUp 1.1s 0.75s forwards ease-out;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.95rem 1.6rem;
+  font-family: var(--display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  border: 1.5px solid transparent;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #ff3b30, #a30500);
+  color: #fff;
+  box-shadow: 0 8px 32px -8px rgba(225,6,0,0.45);
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 40px -8px rgba(225,6,0,0.6); }
+.btn-ghost {
+  background: rgba(255,255,255,0.04);
+  color: var(--ink);
+  border-color: rgba(255,255,255,0.22);
+  backdrop-filter: blur(10px);
+}
+.btn-ghost:hover { background: rgba(255,255,255,0.1); border-color: var(--brand); }
+.btn-arrow { width: 14px; height: 14px; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === Hero meta strip === */
+.hero-meta {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 1.4rem 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  font-size: 0.88rem;
+}
+.hero-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.hero-meta-item svg { width: 16px; height: 16px; flex-shrink: 0; opacity: 0.6; }
+.hero-meta-item strong { font-weight: 600; }
+@media (min-width: 720px) {
+  .hero-meta {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1.4rem 2.5rem;
+    text-align: left;
+  }
+}
+
+/* === Section base === */
+.section {
+  padding: 5rem 1.5rem;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+@media (min-width: 720px) {
+  .section { padding: 7rem 2.5rem; }
+}
+.eyebrow {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--brand);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+.eyebrow::before {
+  content: "";
+  width: 24px;
+  height: 1.5px;
+  background: var(--brand);
+  border-radius: 2px;
+}
+.title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.2rem, 5.5vw, 4.2rem);
+  line-height: 1.06;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+  color: var(--ink);
+}
+.title em {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--brand);
+}
+
+/* === About === */
+.about-section { background: var(--surface); }
+.about-section .section { padding-bottom: 4rem; }
+.about-grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 920px) {
+  .about-grid { grid-template-columns: 1fr 1.4fr; gap: 5rem; }
+}
+.about-lead {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.4rem, 2.8vw, 1.95rem);
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 2rem;
+}
+.about-lead strong {
+  font-style: normal;
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--brand);
+}
+.about-body p {
+  margin-bottom: 1.2rem;
+  color: var(--ink-soft);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  max-width: 56ch;
+}
+.about-body p:last-child { margin-bottom: 0; }
+
+/* MV cards */
+.mv-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 4rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .mv-grid { grid-template-columns: 1fr 1fr; }
+}
+.mv-card {
+  padding: 2.2rem 1.8rem;
+  background: var(--bg-warm);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.6);
+  position: relative;
+  overflow: hidden;
+}
+.mv-card-vision {
+  background: linear-gradient(160deg, var(--brand-deep), var(--brand));
+  color: #fff;
+  border: none;
+}
+.mv-card-vision .mv-label { color: rgba(255,255,255,0.78); }
+.mv-card-vision p { color: rgba(255,255,255,0.94); }
+.mv-label {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--brand);
+  margin-bottom: 0.8rem;
+}
+.mv-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.4rem;
+  line-height: 1.15;
+}
+.mv-card ul { list-style: none; }
+.mv-card li {
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+  font-size: 0.96rem;
+  display: flex;
+  gap: 0.8rem;
+  line-height: 1.45;
+}
+.mv-card li:first-child { border-top: none; padding-top: 0; }
+.mv-card li::before {
+  content: "✦";
+  color: var(--brand);
+  flex-shrink: 0;
+}
+.mv-card p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+/* === Services / Schedule === */
+.services-section {
+  background: var(--bg-warm);
+  position: relative;
+  overflow: hidden;
+}
+.services-section::before {
+  content: "";
+  position: absolute;
+  top: 0; right: -10%;
+  width: 50%;
+  height: 100%;
+  background: radial-gradient(ellipse, rgba(255,59,48,0.14), transparent 70%);
+  pointer-events: none;
+}
+.services-list {
+  margin-top: 3rem;
+}
+.service-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1.8rem 0;
+  border-top: 1px solid var(--line);
+  gap: 0.4rem;
+  position: relative;
+  transition: background 0.3s, padding 0.3s;
+  align-items: baseline;
+}
+.service-row:last-child { border-bottom: 1px solid var(--line); }
+.service-row:hover { padding-left: 1rem; background: rgba(225,6,0,0.05); }
+@media (min-width: 720px) {
+  .service-row {
+    grid-template-columns: 1.2fr 1.5fr 2fr auto;
+    gap: 2rem;
+    padding: 2.4rem 0;
+  }
+}
+.s-day {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
+  color: var(--brand);
+}
+.s-time {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 4.5vw, 2.5rem);
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--ink);
+}
+.s-name {
+  font-family: var(--display);
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+.s-arrow {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-faint);
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+.service-row:hover .s-arrow { transform: translateX(8px); color: var(--brand); }
+
+/* === Ministries === */
+.ministries-section { background: var(--surface); }
+.ministries-grid {
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 3rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .ministries-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1000px) {
+  .ministries-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .ministry-featured { grid-column: span 2; grid-row: span 2; }
+}
+.ministry {
+  background: var(--bg-warm);
+  padding: 2rem 1.7rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.ministry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px -12px rgba(225,6,0,0.22);
+}
+.ministry-featured {
+  background:
+    linear-gradient(160deg, var(--brand-deep), var(--brand) 60%, var(--brand-light));
+  color: #fff;
+  border: none;
+  min-height: 380px;
+}
+.ministry-featured::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.12 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+.ministry-featured > * { position: relative; z-index: 1; }
+.m-meta {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  margin-bottom: 0.8rem;
+}
+.ministry-featured .m-meta { color: rgba(255,255,255,0.8); }
+.m-name {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+.ministry-featured .m-name {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: 1.5rem;
+}
+.m-desc {
+  font-size: 0.96rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin-bottom: auto;
+  padding-bottom: 1.5rem;
+}
+.ministry-featured .m-desc {
+  color: rgba(255,255,255,0.94);
+  font-size: 1.05rem;
+}
+.m-when {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-mute);
+}
+.ministry-featured .m-when {
+  color: rgba(255,255,255,0.88);
+  border-color: rgba(255,255,255,0.28);
+}
+
+/* === Pastors === */
+.pastors-section { background: var(--bg-warm); }
+.pastors-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 920px) {
+  .pastors-grid { grid-template-columns: 1.1fr 1fr; gap: 5rem; }
+}
+.pastors-visual {
+  position: relative;
+  aspect-ratio: 4/5;
+  border-radius: 20px;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 30% 30%, #2a0c0a 0%, var(--brand-tint) 35%, var(--brand-light) 75%, var(--brand-deep) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pastors-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.4;
+  mix-blend-mode: screen;
+}
+.pastors-visual img {
+  width: 55%;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 12px 30px rgba(80,62,25,0.4));
+}
+.pastors-quote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  line-height: 1.4;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-top: 2rem;
+}
+.pastors-quote::before {
+  content: "\201C";
+  position: absolute;
+  top: -1.2rem;
+  left: -0.4rem;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--brand);
+  font-family: var(--serif);
+}
+.pastors-ref {
+  font-family: var(--display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: 2.5rem;
+}
+.pastors-name {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.7rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.4rem;
+}
+.pastors-role {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-mute);
+  font-size: 1rem;
+}
+
+/* === Doctrines === */
+.doctrines-section { background: var(--surface); }
+.doctrines-intro {
+  max-width: 600px;
+  margin-bottom: 4rem;
+}
+.doctrines-intro p {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.doctrines-grid {
+  display: grid;
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .doctrines-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1100px) {
+  .doctrines-grid { grid-template-columns: repeat(4, 1fr); }
+}
+.doctrine {
+  padding: 1.6rem 1.2rem;
+  background: var(--bg);
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  transition: background 0.3s;
+}
+.doctrine:hover { background: var(--brand-tint); }
+.d-num {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--brand);
+  min-width: 1.8rem;
+  padding-top: 0.15rem;
+  font-weight: 500;
+}
+.d-text {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.d-text strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  font-size: 0.96rem;
+  letter-spacing: -0.01em;
+}
+
+/* === Give === */
+.give-section {
+  background:
+    radial-gradient(ellipse 80% 80% at 50% 50%, var(--brand) 0%, var(--brand-deep) 100%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.give-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.12 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  pointer-events: none;
+}
+.give-section .section { position: relative; z-index: 2; }
+.give-section .eyebrow { color: rgba(255,255,255,0.78); }
+.give-section .eyebrow::before { background: rgba(255,255,255,0.6); }
+.give-grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 920px) {
+  .give-grid { grid-template-columns: 1.3fr 1fr; align-items: end; gap: 5rem; }
+}
+.give-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.5rem, 7vw, 5.2rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.give-title em {
+  font-style: italic;
+  font-weight: 400;
+}
+.give-text {
+  color: rgba(255,255,255,0.92);
+  font-size: 1.05rem;
+  max-width: 50ch;
+  line-height: 1.65;
+}
+.give-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.give-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 2rem;
+  background: #fff;
+  color: var(--brand-deep);
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  transition: all 0.3s;
+}
+.give-button:hover { transform: translateY(-3px); box-shadow: 0 20px 50px -12px rgba(0,0,0,0.4); }
+.give-button-arrow { font-size: 1.4rem; }
+.give-note {
+  font-family: var(--serif);
+  font-style: italic;
+  color: rgba(255,255,255,0.78);
+  font-size: 0.9rem;
+}
+
+/* === Prayer === */
+.prayer-section { background: var(--bg-warm); }
+.prayer-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.prayer-form {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.field { position: relative; }
+.field label {
+  display: block;
+  font-family: var(--display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.field input, .field textarea {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  background: #111;
+  border: 1.5px solid var(--line-strong);
+  border-radius: 12px;
+  font-family: var(--display);
+  font-size: 1rem;
+  color: var(--ink);
+  transition: all 0.25s;
+  resize: vertical;
+}
+.field input:focus, .field textarea:focus {
+  outline: none;
+  border-color: var(--brand);
+  box-shadow: 0 0 0 4px rgba(225,6,0,0.14);
+}
+.field input::placeholder, .field textarea::placeholder { color: var(--ink-faint); }
+.field textarea { min-height: 140px; line-height: 1.5; }
+.field-hint {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  margin-top: 0.4rem;
+}
+.prayer-submit {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  background: var(--ink);
+  color: var(--bg);
+}
+.prayer-submit:hover { background: var(--brand-deep); transform: translateY(-2px); }
+.prayer-success {
+  background: linear-gradient(135deg, rgba(225,6,0,0.1), rgba(255,59,48,0.07));
+  border: 1.5px solid var(--brand);
+  padding: 1.6rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  display: none;
+}
+.prayer-success.show { display: block; }
+.prayer-success p {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+/* === Visit === */
+.visit-section { background: var(--surface); }
+.visit-grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 920px) {
+  .visit-grid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+}
+.v-block {
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--line);
+}
+.v-block:first-child { border-top: none; padding-top: 0; }
+.v-label {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--ink-mute);
+  margin-bottom: 0.4rem;
+}
+.v-value {
+  font-family: var(--display);
+  font-size: 1.05rem;
+  color: var(--ink);
+  font-weight: 500;
+  line-height: 1.5;
+}
+.v-value a { color: var(--ink); transition: color 0.2s; }
+.v-value a:hover { color: var(--brand); }
+.visit-map {
+  aspect-ratio: 4/3;
+  background: var(--bg-warm);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+.visit-map iframe {
+  width: 100%; height: 100%; border: 0;
+}
+
+/* === Footer === */
+.footer {
+  background: #000;
+  color: #fff;
+  border-top: 3px solid var(--brand);
+  padding: 4rem 1.5rem 2rem;
+}
+.footer-wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .footer-wrap { grid-template-columns: 2fr 1fr 1fr 1fr; }
+}
+.footer-brand img { width: 56px; margin-bottom: 1.2rem; filter: brightness(1.4); }
+.footer-brand-name {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.4rem;
+}
+.footer-brand-tag {
+  font-family: var(--serif);
+  font-style: italic;
+  color: rgba(255,255,255,0.65);
+  font-size: 0.92rem;
+  max-width: 30ch;
+  line-height: 1.5;
+}
+.footer h4 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 1rem;
+}
+.footer ul { list-style: none; }
+.footer li { padding: 0.32rem 0; }
+.footer li a {
+  color: rgba(255,255,255,0.78);
+  font-size: 0.92rem;
+  transition: color 0.2s;
+}
+.footer li a:hover { color: #fff; }
+.footer-bottom {
+  max-width: var(--maxw);
+  margin: 3rem auto 0;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.55);
+}
+
+/* === WhatsApp Float === */
+.wa-float {
+  position: fixed;
+  bottom: 1.3rem;
+  right: 1.3rem;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 32px -8px rgba(37,211,102,0.5), 0 4px 12px rgba(0,0,0,0.18);
+  z-index: 90;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.wa-float:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 40px -8px rgba(37,211,102,0.7);
+}
+.wa-float svg { width: 28px; height: 28px; fill: #fff; }
+.wa-float::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid #25D366;
+  opacity: 0;
+  animation: pulse 2.4s infinite;
+}
+@keyframes pulse {
+  0% { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 0; transform: scale(1.3); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition-duration: 0.01ms !important; }
+}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--brand-deep);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:#e10600;color:#fff;padding:.6rem 1rem;border-radius:8px;z-index:9999}
+.skip:focus{left:8px}
+
+/* === Cinematic B/N + rojo === */
+body{background:#0a0a0a}
+h1,h2,h3,.hero-title{letter-spacing:-0.03em}
+.hero-title,.section-title{text-transform:none}
+.hero-content{box-shadow:0 40px 100px -30px rgba(225,6,0,.45);background:rgba(10,10,10,.55)}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:0 10px 30px -10px rgba(225,6,0,.7)}
+.btn-primary:hover{background:#ff1a0f}
+.nav{background:rgba(8,8,8,.78)}
+img,iframe{filter:grayscale(1) contrast(1.08)}
+.nav-brand img,.hero-watermark,.footer img{filter:none}
+iframe{filter:grayscale(1) invert(.9) contrast(.9)}
+.hero::before{animation:slowzoom 24s ease-in-out infinite alternate}
+@keyframes slowzoom{from{transform:scale(1)}to{transform:scale(1.08)}}
+.hero::after{opacity:.35}
+.hero-content::before{content:"";position:absolute;left:0;top:0;width:64px;height:4px;background:var(--brand)}
+section:nth-of-type(even){background:#0f0f0f}
+@media (prefers-reduced-motion:reduce){.hero::before{animation:none}}
+
+.hero-meta{background:#000!important;color:#fff!important;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.hero-eyebrow,.eyebrow{color:var(--brand-light)}
+.hero-meta-item svg{color:var(--brand-light);opacity:1}
+.field input,.field textarea{background:#111;color:#fff}
+.footer img{filter:none}
+</style>
+</head>
+<body>
+<a class="skip" href="#top">Saltar al contenido</a>
+
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#top" class="nav-brand">
+    <img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cg fill=%22none%22 stroke=%22%23e10600%22 stroke-width=%223%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M8 58V30a24 24 0 0 1 48 0v28%22/%3E%3Cpath d=%22M17 58V31a15 15 0 0 1 30 0v27%22/%3E%3C/g%3E%3Cpath fill=%22%23e10600%22 d=%22M32 20c4 5 7 8 7 13a7 7 0 0 1-14 0c0-3 2-5 3-7 1 2 2 3 3 3 0-3 0-5 1-9z%22/%3E%3C/svg%3E" alt="Casa de Dios">
+    <div class="nav-brand-text">
+      Casa de Dios
+      <span>Aurora · Colorado</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="#about" data-lang-es>Quiénes Somos</a><a href="#about" data-lang-en>About</a>
+    <a href="#services" data-lang-es>Servicios</a><a href="#services" data-lang-en>Services</a>
+    <a href="#ministries" data-lang-es>Ministerios</a><a href="#ministries" data-lang-en>Ministries</a>
+    <a href="#pastors" data-lang-es>Pastores</a><a href="#pastors" data-lang-en>Pastors</a>
+    <a href="#visit" data-lang-es>Visítanos</a><a href="#visit" data-lang-en>Visit</a>
+  </div>
+  <div class="nav-actions">
+    <div class="lang-switch">
+      <button data-lang="es" class="active">ES</button>
+      <button data-lang="en">EN</button>
+    </div>
+    <button class="menu-toggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu">
+  <a href="#about" data-lang-es>Quiénes Somos</a><a href="#about" data-lang-en>About</a>
+  <a href="#services" data-lang-es>Servicios</a><a href="#services" data-lang-en>Services</a>
+  <a href="#ministries" data-lang-es>Ministerios</a><a href="#ministries" data-lang-en>Ministries</a>
+  <a href="#pastors" data-lang-es>Pastores</a><a href="#pastors" data-lang-en>Pastors</a>
+  <a href="#visit" data-lang-es>Visítanos</a><a href="#visit" data-lang-en>Visit</a>
+</div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cg fill=%22none%22 stroke=%22%23e10600%22 stroke-width=%223%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M8 58V30a24 24 0 0 1 48 0v28%22/%3E%3Cpath d=%22M17 58V31a15 15 0 0 1 30 0v27%22/%3E%3C/g%3E%3Cpath fill=%22%23e10600%22 d=%22M32 20c4 5 7 8 7 13a7 7 0 0 1-14 0c0-3 2-5 3-7 1 2 2 3 3 3 0-3 0-5 1-9z%22/%3E%3C/svg%3E" class="hero-watermark" alt="">
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span data-lang-es>Iglesia Casa de Dios · Aurora, Colorado · Asambleas de Dios</span>
+      <span data-lang-en>Casa de Dios Church · Aurora, Colorado · Assemblies of God</span>
+    </div>
+    <h1 class="hero-title">
+      <span data-lang-es>Un lugar para<br>comenzar <em>de nuevo</em>.</span>
+      <span data-lang-en>A place to<br>begin <em>again</em>.</span>
+    </h1>
+    <p class="hero-tagline">
+      <span data-lang-es>Comunidad cristiana evangélica para familias latinas que anhelan crecer espiritualmente, sanar y servir.</span>
+      <span data-lang-en>An evangelical Christian community for Latino families who long to grow spiritually, heal, and serve.</span>
+    </p>
+    <div class="hero-cta">
+      <a href="#services" class="btn btn-primary">
+        <span data-lang-es>Visítanos este Domingo</span>
+        <span data-lang-en>Visit this Sunday</span>
+        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#prayer" class="btn btn-ghost">
+        <span data-lang-es>Pide oración</span>
+        <span data-lang-en>Request prayer</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- META STRIP -->
+<div class="hero-meta">
+  <div class="hero-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    <span><strong>Domingo 10:00 AM</strong> <span data-lang-es>· Culto principal</span><span data-lang-en>· Main service</span></span>
+  </div>
+  <div class="hero-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+    <span>Aurora, CO 80012</span>
+  </div>
+  <div class="hero-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+    <span>+1 (720) 877-3095</span>
+  </div>
+  <div class="hero-meta-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12a9 9 0 1118 0 9 9 0 01-18 0z"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg>
+    <span data-lang-es>Servicios en español</span><span data-lang-en>Services in Spanish</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Quiénes somos</span><span data-lang-en>About us</span></div>
+    <h2 class="title">
+      <span data-lang-es>Una iglesia <em>plantada</em> en Aurora<br>para ser luz y esperanza.</span>
+      <span data-lang-en>A church <em>planted</em> in Aurora<br>to be light and hope.</span>
+    </h2>
+    <div class="about-grid">
+      <div class="about-lead">
+        <span data-lang-es>Somos una <strong>comunidad cristiana evangélica</strong> nacida con el deseo de proclamar el Evangelio y formar discípulos en medio de una ciudad diversa y llena de familias latinas.</span>
+        <span data-lang-en>We are an <strong>evangelical Christian community</strong> born with the desire to proclaim the Gospel and form disciples in the midst of a diverse city full of Latino families.</span>
+      </div>
+      <div class="about-body">
+        <p data-lang-es>Desde 2023 servimos con pasión, abrazando con amor a quienes buscan esperanza, restauración y el propósito de Dios para sus vidas.</p>
+        <p data-lang-en>Since 2023 we have served with passion, lovingly embracing those who seek hope, restoration, and God's purpose for their lives.</p>
+        <p data-lang-es>Creemos que Dios ha plantado esta iglesia en Aurora para ser luz y esperanza, un hogar espiritual para todo aquel que anhela comenzar de nuevo.</p>
+        <p data-lang-en>We believe that God has planted this church in Aurora to be light and hope, a spiritual home for everyone who longs to begin again.</p>
+      </div>
+    </div>
+
+    <div class="mv-grid">
+      <div class="mv-card mv-card-vision">
+        <div class="mv-label" data-lang-es>Nuestra visión</div>
+        <div class="mv-label" data-lang-en>Our vision</div>
+        <h3 class="mv-title" data-lang-es>Discipular, restaurar<br>y abrazar.</h3>
+        <h3 class="mv-title" data-lang-en>Disciple, restore,<br>embrace.</h3>
+        <p data-lang-es>Levantar una iglesia que discipule, restaure y abrace con amor a las familias latinas, proveyendo un lugar donde puedan crecer espiritualmente, sanar emocionalmente y servir a otros desde su propia experiencia.</p>
+        <p data-lang-en>To raise up a church that disciples, restores, and lovingly embraces Latino families, providing a place where they can grow spiritually, heal emotionally, and serve others from their own experience.</p>
+      </div>
+      <div class="mv-card">
+        <div class="mv-label" data-lang-es>Nuestra misión</div>
+        <div class="mv-label" data-lang-en>Our mission</div>
+        <h3 class="mv-title" data-lang-es>Cuatro llamados.</h3>
+        <h3 class="mv-title" data-lang-en>Four callings.</h3>
+        <ul data-lang-es>
+          <li>Anunciar el Evangelio de Jesucristo con claridad y poder.</li>
+          <li>Formar discípulos fieles que vivan en obediencia a la Palabra.</li>
+          <li>Restaurar familias mediante la oración, la enseñanza bíblica y la comunidad.</li>
+          <li>Servir a la ciudad con compasión, verdad y un testimonio relevante.</li>
+        </ul>
+        <ul data-lang-en>
+          <li>Proclaim the Gospel of Jesus Christ with clarity and power.</li>
+          <li>Form faithful disciples who live in obedience to the Word.</li>
+          <li>Restore families through prayer, biblical teaching, and community.</li>
+          <li>Serve the city with compassion, truth, and a relevant witness.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Horarios de servicios</span><span data-lang-en>Service schedule</span></div>
+    <h2 class="title">
+      <span data-lang-es>Reúnete <em>con nosotros</em>.</span>
+      <span data-lang-en>Gather <em>with us</em>.</span>
+    </h2>
+    <div class="services-list">
+      <a class="service-row" href="#visit">
+        <span class="s-day" data-lang-es>Domingo</span><span class="s-day" data-lang-en>Sunday</span>
+        <span class="s-time">10:00 AM</span>
+        <span class="s-name" data-lang-es>Culto de Adoración · Servicio principal</span>
+        <span class="s-name" data-lang-en>Worship Service · Main service</span>
+        <span class="s-arrow">→</span>
+      </a>
+      <a class="service-row" href="#visit">
+        <span class="s-day" data-lang-es>Miércoles</span><span class="s-day" data-lang-en>Wednesday</span>
+        <span class="s-time">7:30 PM</span>
+        <span class="s-name" data-lang-es>Grupos de Jóvenes</span>
+        <span class="s-name" data-lang-en>Youth Groups</span>
+        <span class="s-arrow">→</span>
+      </a>
+      <a class="service-row" href="#visit">
+        <span class="s-day" data-lang-es>Viernes</span><span class="s-day" data-lang-en>Friday</span>
+        <span class="s-time">7:30 PM</span>
+        <span class="s-name" data-lang-es>Grupos de Discipulado</span>
+        <span class="s-name" data-lang-en>Discipleship Groups</span>
+        <span class="s-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MINISTRIES -->
+<section class="ministries-section" id="ministries">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Nuestros ministerios</span><span data-lang-en>Our ministries</span></div>
+    <h2 class="title">
+      <span data-lang-es>Cinco maneras de <em>servir</em>.</span>
+      <span data-lang-en>Five ways to <em>serve</em>.</span>
+    </h2>
+    <div class="ministries-grid">
+      <article class="ministry ministry-featured">
+        <div class="m-meta" data-lang-es>Principal · Domingo 10 AM</div>
+        <div class="m-meta" data-lang-en>Main · Sunday 10 AM</div>
+        <h3 class="m-name" data-lang-es>Alabanza<br>&amp; Adoración</h3>
+        <h3 class="m-name" data-lang-en>Worship<br>&amp; Praise</h3>
+        <p class="m-desc" data-lang-es>El corazón de nuestra iglesia. Cada domingo nos reunimos para adorar al Señor con cánticos, oración y la Palabra predicada — un encuentro vivo con la presencia de Dios para toda la familia.</p>
+        <p class="m-desc" data-lang-en>The heart of our church. Every Sunday we gather to worship the Lord with songs, prayer, and the preached Word — a living encounter with God's presence for the whole family.</p>
+        <div class="m-when" data-lang-es>Domingo · 10:00 AM</div>
+        <div class="m-when" data-lang-en>Sunday · 10:00 AM</div>
+      </article>
+
+      <article class="ministry">
+        <div class="m-meta" data-lang-es>Crecimiento</div><div class="m-meta" data-lang-en>Growth</div>
+        <h3 class="m-name" data-lang-es>Grupos de Discipulado</h3>
+        <h3 class="m-name" data-lang-en>Discipleship Groups</h3>
+        <p class="m-desc" data-lang-es>Espacios íntimos para profundizar en la Palabra, formar carácter cristiano y caminar juntos en obediencia.</p>
+        <p class="m-desc" data-lang-en>Intimate spaces to go deeper in the Word, build Christian character, and walk together in obedience.</p>
+        <div class="m-when" data-lang-es>Viernes · 7:30 PM</div>
+        <div class="m-when" data-lang-en>Friday · 7:30 PM</div>
+      </article>
+
+      <article class="ministry">
+        <div class="m-meta" data-lang-es>Próxima generación</div><div class="m-meta" data-lang-en>Next generation</div>
+        <h3 class="m-name" data-lang-es>Niños y Jóvenes</h3>
+        <h3 class="m-name" data-lang-en>Kids &amp; Youth</h3>
+        <p class="m-desc" data-lang-es>Formando con amor y verdad bíblica a la próxima generación. Un ambiente seguro para crecer en Cristo.</p>
+        <p class="m-desc" data-lang-en>Forming the next generation with love and biblical truth. A safe environment to grow in Christ.</p>
+        <div class="m-when" data-lang-es>Miércoles · 7:30 PM</div>
+        <div class="m-when" data-lang-en>Wednesday · 7:30 PM</div>
+      </article>
+
+      <article class="ministry">
+        <div class="m-meta" data-lang-es>Comunidad</div><div class="m-meta" data-lang-en>Community</div>
+        <h3 class="m-name" data-lang-es>Ministerio Femenil</h3>
+        <h3 class="m-name" data-lang-en>Women's Ministry</h3>
+        <p class="m-desc" data-lang-es>Comunidad de mujeres que se apoyan, oran y crecen juntas en su relación con Dios y su llamado.</p>
+        <p class="m-desc" data-lang-en>A community of women who support, pray, and grow together in their relationship with God and their calling.</p>
+        <div class="m-when" data-lang-es>Encuentros mensuales</div>
+        <div class="m-when" data-lang-en>Monthly gatherings</div>
+      </article>
+
+      <article class="ministry">
+        <div class="m-meta" data-lang-es>Servicio</div><div class="m-meta" data-lang-en>Service</div>
+        <h3 class="m-name" data-lang-es>Obras Sociales</h3>
+        <h3 class="m-name" data-lang-en>Social Outreach</h3>
+        <p class="m-desc" data-lang-es>Llevando esperanza tangible a Aurora con compasión, recursos y un testimonio relevante para la ciudad.</p>
+        <p class="m-desc" data-lang-en>Bringing tangible hope to Aurora with compassion, resources, and a relevant witness for the city.</p>
+        <div class="m-when" data-lang-es>Sirviendo todo el año</div>
+        <div class="m-when" data-lang-en>Serving year-round</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PASTORS -->
+<section class="pastors-section" id="pastors">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Pastores</span><span data-lang-en>Pastors</span></div>
+    <div class="pastors-grid">
+      <div class="pastors-visual">
+        <img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cg fill=%22none%22 stroke=%22%23e10600%22 stroke-width=%223%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M8 58V30a24 24 0 0 1 48 0v28%22/%3E%3Cpath d=%22M17 58V31a15 15 0 0 1 30 0v27%22/%3E%3C/g%3E%3Cpath fill=%22%23e10600%22 d=%22M32 20c4 5 7 8 7 13a7 7 0 0 1-14 0c0-3 2-5 3-7 1 2 2 3 3 3 0-3 0-5 1-9z%22/%3E%3C/svg%3E" alt="">
+      </div>
+      <div>
+        <p class="pastors-quote" data-lang-es>El que comenzó en vosotros la buena obra, la perfeccionará hasta el día de Jesucristo.</p>
+        <p class="pastors-quote" data-lang-en>He who began a good work in you will carry it on to completion until the day of Christ Jesus.</p>
+        <div class="pastors-ref">Filipenses 1:6</div>
+        <div class="pastors-name">Nehemías Nava &amp; Karen Morales</div>
+        <div class="pastors-role" data-lang-es>Pastores fundadores · Casa de Dios Aurora</div>
+        <div class="pastors-role" data-lang-en>Founding pastors · Casa de Dios Aurora</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTRINES -->
+<section class="doctrines-section">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Lo que creemos</span><span data-lang-en>What we believe</span></div>
+    <h2 class="title">
+      <span data-lang-es>Las 16 verdades <em>fundamentales</em>.</span>
+      <span data-lang-en>The 16 fundamental <em>truths</em>.</span>
+    </h2>
+    <div class="doctrines-intro">
+      <p data-lang-es>Sostenemos las verdades doctrinales oficiales de las Asambleas de Dios — un fundamento bíblico que guía nuestra fe, predicación y vida en comunidad.</p>
+      <p data-lang-en>We hold to the official doctrinal truths of the Assemblies of God — a biblical foundation that guides our faith, preaching, and life in community.</p>
+    </div>
+    <div class="doctrines-grid">
+      <div class="doctrine"><span class="d-num">i</span><span class="d-text"><strong data-lang-es>Las Escrituras Inspiradas</strong><strong data-lang-en>The Scriptures Inspired</strong><span data-lang-es>La Biblia es la Palabra inspirada de Dios, infalible y autoritativa.</span><span data-lang-en>The Bible is the inspired, infallible, and authoritative Word of God.</span></span></div>
+      <div class="doctrine"><span class="d-num">ii</span><span class="d-text"><strong data-lang-es>El Único Dios Verdadero</strong><strong data-lang-en>The One True God</strong><span data-lang-es>Un solo Dios eterno revelado en tres personas: Padre, Hijo y Espíritu Santo.</span><span data-lang-en>One eternal God revealed in three persons: Father, Son, and Holy Spirit.</span></span></div>
+      <div class="doctrine"><span class="d-num">iii</span><span class="d-text"><strong data-lang-es>La Deidad de Jesucristo</strong><strong data-lang-en>The Deity of Jesus Christ</strong><span data-lang-es>Jesucristo es el Hijo eterno de Dios, plenamente Dios y plenamente hombre.</span><span data-lang-en>Jesus Christ is the eternal Son of God, fully God and fully man.</span></span></div>
+      <div class="doctrine"><span class="d-num">iv</span><span class="d-text"><strong data-lang-es>La Caída del Hombre</strong><strong data-lang-en>The Fall of Man</strong><span data-lang-es>La humanidad fue creada buena pero cayó por desobediencia, separándose de Dios.</span><span data-lang-en>Humanity was created good but fell through disobedience, separated from God.</span></span></div>
+      <div class="doctrine"><span class="d-num">v</span><span class="d-text"><strong data-lang-es>La Salvación del Hombre</strong><strong data-lang-en>The Salvation of Man</strong><span data-lang-es>La salvación viene por gracia mediante la fe en Cristo Jesús.</span><span data-lang-en>Salvation comes by grace through faith in Christ Jesus.</span></span></div>
+      <div class="doctrine"><span class="d-num">vi</span><span class="d-text"><strong data-lang-es>Las Ordenanzas de la Iglesia</strong><strong data-lang-en>The Ordinances of the Church</strong><span data-lang-es>El bautismo en agua y la Santa Cena como mandatos de Cristo.</span><span data-lang-en>Water baptism and the Lord's Supper as commands of Christ.</span></span></div>
+      <div class="doctrine"><span class="d-num">vii</span><span class="d-text"><strong data-lang-es>El Bautismo en el Espíritu Santo</strong><strong data-lang-en>The Baptism in the Holy Spirit</strong><span data-lang-es>Don prometido por el Padre para empoderar al creyente para servir.</span><span data-lang-en>Gift promised by the Father to empower believers for service.</span></span></div>
+      <div class="doctrine"><span class="d-num">viii</span><span class="d-text"><strong data-lang-es>La Evidencia Inicial</strong><strong data-lang-en>The Initial Evidence</strong><span data-lang-es>El hablar en otras lenguas como evidencia bíblica del bautismo del Espíritu.</span><span data-lang-en>Speaking in tongues as biblical evidence of the baptism of the Spirit.</span></span></div>
+      <div class="doctrine"><span class="d-num">ix</span><span class="d-text"><strong data-lang-es>La Santificación</strong><strong data-lang-en>Sanctification</strong><span data-lang-es>Acto de separación de lo malo y dedicación a Dios, obra del Espíritu.</span><span data-lang-en>Act of separation from evil and dedication to God, the work of the Spirit.</span></span></div>
+      <div class="doctrine"><span class="d-num">x</span><span class="d-text"><strong data-lang-es>La Iglesia y su Misión</strong><strong data-lang-en>The Church and Its Mission</strong><span data-lang-es>La Iglesia es el cuerpo de Cristo llamado a evangelizar y discipular.</span><span data-lang-en>The Church is the body of Christ called to evangelize and disciple.</span></span></div>
+      <div class="doctrine"><span class="d-num">xi</span><span class="d-text"><strong data-lang-es>El Ministerio</strong><strong data-lang-en>The Ministry</strong><span data-lang-es>Llamamiento divinamente ordenado para servir y edificar el cuerpo.</span><span data-lang-en>A divinely ordained calling to serve and build up the body.</span></span></div>
+      <div class="doctrine"><span class="d-num">xii</span><span class="d-text"><strong data-lang-es>La Sanidad Divina</strong><strong data-lang-en>Divine Healing</strong><span data-lang-es>Privilegio del Evangelio provisto en la expiación de Cristo.</span><span data-lang-en>A privilege of the Gospel provided in Christ's atonement.</span></span></div>
+      <div class="doctrine"><span class="d-num">xiii</span><span class="d-text"><strong data-lang-es>La Esperanza Bienaventurada</strong><strong data-lang-en>The Blessed Hope</strong><span data-lang-es>El arrebatamiento de la Iglesia, esperanza inminente del creyente.</span><span data-lang-en>The rapture of the Church, the believer's imminent hope.</span></span></div>
+      <div class="doctrine"><span class="d-num">xiv</span><span class="d-text"><strong data-lang-es>El Reino Milenial</strong><strong data-lang-en>The Millennial Reign</strong><span data-lang-es>El reinado visible de Cristo sobre la tierra por mil años.</span><span data-lang-en>The visible reign of Christ on earth for a thousand years.</span></span></div>
+      <div class="doctrine"><span class="d-num">xv</span><span class="d-text"><strong data-lang-es>El Juicio Final</strong><strong data-lang-en>The Final Judgment</strong><span data-lang-es>Habrá un juicio justo y final para los que rechazaron al Salvador.</span><span data-lang-en>There will be a final, just judgment for those who rejected the Savior.</span></span></div>
+      <div class="doctrine"><span class="d-num">xvi</span><span class="d-text"><strong data-lang-es>Los Cielos y la Tierra Nueva</strong><strong data-lang-en>The New Heavens and Earth</strong><span data-lang-es>La promesa eterna de morar con Dios en su nueva creación.</span><span data-lang-en>The eternal promise of dwelling with God in His new creation.</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GIVE -->
+<section class="give-section" id="give">
+  <div class="section">
+    <div class="give-grid">
+      <div>
+        <div class="eyebrow" data-lang-es>Ofrendas y diezmos</div>
+        <div class="eyebrow" data-lang-en>Tithes and offerings</div>
+        <h2 class="give-title">
+          <span data-lang-es>Sembrar es <em>adorar</em>.</span>
+          <span data-lang-en>To sow is to <em>worship</em>.</span>
+        </h2>
+        <p class="give-text" data-lang-es>Tu generosidad sostiene la obra del Evangelio en Aurora — los ministerios, las familias que servimos y las vidas que Dios sigue tocando.</p>
+        <p class="give-text" data-lang-en>Your generosity sustains the work of the Gospel in Aurora — the ministries, the families we serve, and the lives God keeps touching.</p>
+      </div>
+      <div class="give-cta">
+        <a href="https://iglesia-casa-de-dios.raiselysite.com/en/" target="_blank" rel="noopener" class="give-button">
+          <span data-lang-es>Donar de forma segura</span>
+          <span data-lang-en>Give securely</span>
+          <span class="give-button-arrow">→</span>
+        </a>
+        <p class="give-note" data-lang-es>Diezmos y ofrendas en línea, de forma segura. También por teléfono: (866) 860-4579.</p>
+        <p class="give-note" data-lang-en>Tithes and offerings online, securely. Also by phone: (866) 860-4579.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRAYER -->
+<section class="prayer-section" id="prayer">
+  <div class="section prayer-wrap">
+    <div class="eyebrow"><span data-lang-es>Petición de oración</span><span data-lang-en>Prayer request</span></div>
+    <h2 class="title">
+      <span data-lang-es>Estamos <em>orando</em> por ti.</span>
+      <span data-lang-en>We are <em>praying</em> for you.</span>
+    </h2>
+    <p class="about-lead" style="font-size: clamp(1.1rem, 2.4vw, 1.4rem); margin-bottom: 0;" data-lang-es>Comparte tu petición con nosotros. Nuestro equipo pastoral la recibirá con confidencialidad y la llevará delante del Señor.</p>
+    <p class="about-lead" style="font-size: clamp(1.1rem, 2.4vw, 1.4rem); margin-bottom: 0;" data-lang-en>Share your request with us. Our pastoral team will receive it confidentially and bring it before the Lord.</p>
+
+    <form class="prayer-form" id="prayerForm">
+      <div class="field">
+        <label for="prayerTitle" data-lang-es>Título de la petición</label>
+        <label for="prayerTitle" data-lang-en>Request title</label>
+        <input type="text" id="prayerTitle" required maxlength="100"
+               data-placeholder-es="Ej. Por mi familia, salud, trabajo…"
+               data-placeholder-en="E.g. For my family, health, work…">
+      </div>
+      <div class="field">
+        <label for="prayerMsg" data-lang-es>Tu petición</label>
+        <label for="prayerMsg" data-lang-en>Your request</label>
+        <textarea id="prayerMsg" required maxlength="2000"
+                  data-placeholder-es="Cuéntanos cómo podemos orar por ti…"
+                  data-placeholder-en="Tell us how we can pray for you…"></textarea>
+      </div>
+      <div class="field">
+        <label for="prayerPhone" data-lang-es>Teléfono (opcional)</label>
+        <label for="prayerPhone" data-lang-en>Phone (optional)</label>
+        <input type="tel" id="prayerPhone" maxlength="30"
+               data-placeholder-es="+1 (720) 000-0000"
+               data-placeholder-en="+1 (720) 000-0000">
+        <div class="field-hint" data-lang-es>Si quieres que un pastor te llame.</div>
+        <div class="field-hint" data-lang-en>If you'd like a pastor to call you.</div>
+      </div>
+      <button type="submit" class="btn prayer-submit">
+        <span data-lang-es>Enviar petición</span>
+        <span data-lang-en>Send request</span>
+        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+      <div class="prayer-success" id="prayerSuccess">
+        <p data-lang-es>Hemos recibido tu petición. Nuestro equipo pastoral está orando por ti. Si dejaste tu teléfono, te contactaremos pronto.</p>
+        <p data-lang-en>We've received your request. Our pastoral team is praying for you. If you left your phone, we'll be in touch soon.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit-section" id="visit">
+  <div class="section">
+    <div class="eyebrow"><span data-lang-es>Visítanos</span><span data-lang-en>Visit us</span></div>
+    <h2 class="title">
+      <span data-lang-es>Te <em>esperamos</em>.</span>
+      <span data-lang-en>We're <em>waiting</em> for you.</span>
+    </h2>
+    <div class="visit-grid">
+      <div>
+        <div class="v-block">
+          <div class="v-label" data-lang-es>Dirección</div><div class="v-label" data-lang-en>Address</div>
+          <div class="v-value">
+            <a href="https://maps.google.com/?q=11111+E+Mississippi+Ave+Suite+279+Aurora+CO+80012" target="_blank" rel="noopener">
+              11111 E Mississippi Ave<br>Suite 279 · 2.º piso<br>Aurora, CO 80012
+            </a>
+          </div>
+        </div>
+        <div class="v-block">
+          <div class="v-label" data-lang-es>Teléfono / WhatsApp</div><div class="v-label" data-lang-en>Phone / WhatsApp</div>
+          <div class="v-value"><a href="tel:+17208773095">+1 (720) 877-3095</a></div>
+        </div>
+        <div class="v-block">
+          <div class="v-label">Email</div>
+          <div class="v-value"><a href="mailto:iglesiacasadedios33@gmail.com">iglesiacasadedios33@gmail.com</a></div>
+        </div>
+        <div class="v-block">
+          <div class="v-label" data-lang-es>Síguenos</div><div class="v-label" data-lang-en>Follow us</div>
+          <div class="v-value" style="display: flex; gap: 1.2rem; flex-wrap: wrap;">
+            <a href="https://www.facebook.com/share/19XMBFVj5S/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://instagram.com/iglesiacasadediosag/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://youtube.com/@somoscasadediosad" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="visit-map">
+        <iframe loading="lazy" src="https://www.google.com/maps?q=11111+E+Mississippi+Ave+Suite+279+Aurora+CO+80012&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-wrap">
+    <div class="footer-brand">
+      <img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Cg fill=%22none%22 stroke=%22%23e10600%22 stroke-width=%223%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M8 58V30a24 24 0 0 1 48 0v28%22/%3E%3Cpath d=%22M17 58V31a15 15 0 0 1 30 0v27%22/%3E%3C/g%3E%3Cpath fill=%22%23e10600%22 d=%22M32 20c4 5 7 8 7 13a7 7 0 0 1-14 0c0-3 2-5 3-7 1 2 2 3 3 3 0-3 0-5 1-9z%22/%3E%3C/svg%3E" alt="Casa de Dios">
+      <div class="footer-brand-name">Iglesia Casa de Dios</div>
+      <div class="footer-brand-tag" data-lang-es>Una comunidad cristiana evangélica plantada en Aurora, Colorado, para ser luz y esperanza.</div>
+      <div class="footer-brand-tag" data-lang-en>An evangelical Christian community planted in Aurora, Colorado, to be light and hope.</div>
+    </div>
+    <div>
+      <h4 data-lang-es>Conecta</h4><h4 data-lang-en>Connect</h4>
+      <ul>
+        <li><a href="#about" data-lang-es>Quiénes Somos</a><a href="#about" data-lang-en>About</a></li>
+        <li><a href="#services" data-lang-es>Servicios</a><a href="#services" data-lang-en>Services</a></li>
+        <li><a href="#ministries" data-lang-es>Ministerios</a><a href="#ministries" data-lang-en>Ministries</a></li>
+        <li><a href="#prayer" data-lang-es>Oración</a><a href="#prayer" data-lang-en>Prayer</a></li>
+        <li><a href="#give" data-lang-es>Donar</a><a href="#give" data-lang-en>Give</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-lang-es>Contacto</h4><h4 data-lang-en>Contact</h4>
+      <ul>
+        <li><a href="tel:+17208773095">+1 (720) 877-3095</a></li>
+        <li><a href="mailto:iglesiacasadedios33@gmail.com">Email</a></li>
+        <li><a href="https://wa.me/17208773095" target="_blank">WhatsApp</a></li>
+        <li><a href="https://maps.google.com/?q=11111+E+Mississippi+Ave+Aurora+CO" target="_blank" data-lang-es>Cómo llegar</a><a href="https://maps.google.com/?q=11111+E+Mississippi+Ave+Aurora+CO" target="_blank" data-lang-en>Directions</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-lang-es>Redes</h4><h4 data-lang-en>Social</h4>
+      <ul>
+        <li><a href="https://www.facebook.com/share/19XMBFVj5S/" target="_blank">Facebook</a></li>
+        <li><a href="https://instagram.com/iglesiacasadediosag/" target="_blank">Instagram</a></li>
+        <li><a href="https://youtube.com/@somoscasadediosad" target="_blank">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Iglesia Casa de Dios · Organización religiosa sin fines de lucro · Asambleas de Dios · Aurora, CO</span>
+    <span data-lang-es>Hecho con fe en Aurora.</span>
+    <span data-lang-en>Made with faith in Aurora.</span>
+  </div>
+</footer>
+
+<a href="https://wa.me/17208773095" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+</a>
+
+<script>
+(function(){
+  var html = document.documentElement;
+  var saved = 'es';
+  try { saved = localStorage.getItem('cdd-lang') || 'es'; } catch(e) {}
+  setLang(saved);
+  document.querySelectorAll('.lang-switch button').forEach(function(b){
+    b.addEventListener('click', function(){ setLang(b.dataset.lang); });
+  });
+  function setLang(lang){
+    html.setAttribute('lang', lang);
+    try { localStorage.setItem('cdd-lang', lang); } catch(e) {}
+    document.querySelectorAll('.lang-switch button').forEach(function(b){
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    document.querySelectorAll('[data-placeholder-' + lang + ']').forEach(function(el){
+      el.placeholder = el.getAttribute('data-placeholder-' + lang);
+    });
+  }
+
+  var toggle = document.querySelector('.menu-toggle');
+  var menu = document.querySelector('.mobile-menu');
+  toggle.addEventListener('click', function(){
+    toggle.classList.toggle('open');
+    menu.classList.toggle('open');
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      toggle.classList.remove('open');
+      menu.classList.remove('open');
+    });
+  });
+
+  var form = document.getElementById('prayerForm');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var data = {
+      title: document.getElementById('prayerTitle').value,
+      message: document.getElementById('prayerMsg').value,
+      phone: document.getElementById('prayerPhone').value,
+      lang: html.getAttribute('lang')
+    };
+    var subject = encodeURIComponent('Petición de oración: ' + data.title);
+    var body = encodeURIComponent(
+      'Petición: ' + data.title + '\n\n' +
+      'Mensaje:\n' + data.message + '\n\n' +
+      (data.phone ? 'Teléfono: ' + data.phone + '\n\n' : '') +
+      'Idioma: ' + data.lang
+    );
+    window.location.href = 'mailto:iglesiacasadedios33@gmail.com?subject=' + subject + '&body=' + body;
+    document.getElementById('prayerSuccess').classList.add('show');
+    setTimeout(function(){ form.reset(); }, 500);
+  });
+})();
+</script>
+
+</body>
+</html>
