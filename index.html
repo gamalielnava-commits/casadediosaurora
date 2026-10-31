@@ -1246,6 +1246,12 @@ body{counter-reset:sec}
 .section > .eyebrow > span::before{counter-increment:sec;content:counter(sec,decimal-leading-zero) "  /  ";font-style:normal;font-family:var(--display);font-size:.72em;letter-spacing:.14em;opacity:.8}
 .title{font-size:clamp(2.4rem,5.6vw,4.6rem);line-height:1}
 @media(prefers-reduced-motion:reduce){.marquee-track,.hero-media img,.scroll-cue i{animation:none}}
+.doctrine{transition:background .35s,color .35s}
+.doctrine:hover{background:#0a0a0a}
+.doctrine:hover .d-text{color:#d6d6d6}
+.doctrine:hover .d-text strong{color:#fff}
+.doctrine:hover .d-num{color:#cdb27a}
+.d-num{color:var(--accent)}
 </style>
 </head>
 <body>
